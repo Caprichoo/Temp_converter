@@ -8,3 +8,5 @@ elif option == 2:
     fahrenheit = float(input('Enter the temperature in fahrenheit: '))
     result1 = float((fahrenheit - 32) * 5/9)
     print(f'The temperature in celsius is {result1}')
+else:
+    print("Wrong input entered, please enter 1 or 2.")
